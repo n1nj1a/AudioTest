@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = ContentViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button("Play") {
+                viewModel.playAudio()
+                viewModel.handleRecord()
+            }
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

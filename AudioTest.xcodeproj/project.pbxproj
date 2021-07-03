@@ -15,6 +15,12 @@
 		A25D27A62690677A00C82E01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D277B2690677A00C82E01 /* ContentView.swift */; };
 		A25D27A72690677A00C82E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25D277C2690677A00C82E01 /* Assets.xcassets */; };
 		A25D27A82690677A00C82E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25D277C2690677A00C82E01 /* Assets.xcassets */; };
+		A25D27BC26906BD900C82E01 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D27BB26906BD900C82E01 /* ContentViewModel.swift */; };
+		A25D27BD26906BD900C82E01 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D27BB26906BD900C82E01 /* ContentViewModel.swift */; };
+		A25D27C726906CC000C82E01 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A25D27C626906CC000C82E01 /* sample.mp3 */; };
+		A25D27C826906CC000C82E01 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A25D27C626906CC000C82E01 /* sample.mp3 */; };
+		A25D27D22690741400C82E01 /* empty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A25D27D12690741400C82E01 /* empty.mp3 */; };
+		A25D27D32690741400C82E01 /* empty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A25D27D12690741400C82E01 /* empty.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		A25D279C2690677A00C82E01 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25D27A02690677A00C82E01 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A25D27A22690677A00C82E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25D27BB26906BD900C82E01 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A25D27C626906CC000C82E01 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+		A25D27D12690741400C82E01 /* empty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = empty.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +107,12 @@
 		A25D27792690677900C82E01 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A25D27D12690741400C82E01 /* empty.mp3 */,
+				A25D27C626906CC000C82E01 /* sample.mp3 */,
 				A25D277A2690677A00C82E01 /* AudioTestApp.swift */,
 				A25D277B2690677A00C82E01 /* ContentView.swift */,
 				A25D277C2690677A00C82E01 /* Assets.xcassets */,
+				A25D27BB26906BD900C82E01 /* ContentViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -276,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25D27A72690677A00C82E01 /* Assets.xcassets in Resources */,
+				A25D27C726906CC000C82E01 /* sample.mp3 in Resources */,
+				A25D27D22690741400C82E01 /* empty.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25D27A82690677A00C82E01 /* Assets.xcassets in Resources */,
+				A25D27C826906CC000C82E01 /* sample.mp3 in Resources */,
+				A25D27D32690741400C82E01 /* empty.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25D27A52690677A00C82E01 /* ContentView.swift in Sources */,
+				A25D27BC26906BD900C82E01 /* ContentViewModel.swift in Sources */,
 				A25D27A32690677A00C82E01 /* AudioTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25D27A62690677A00C82E01 /* ContentView.swift in Sources */,
+				A25D27BD26906BD900C82E01 /* ContentViewModel.swift in Sources */,
 				A25D27A42690677A00C82E01 /* AudioTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
